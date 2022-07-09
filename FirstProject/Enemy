@@ -1,0 +1,13 @@
+using System;
+namespace FirstProject
+{
+    class Enemy
+    {
+        int HP;
+        int attackPower;
+        int attackRange;
+        //statuses
+        bool stunned; //skips turn
+        bool distracted; //takes double damage
+    }
+}

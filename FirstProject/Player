@@ -1,0 +1,46 @@
+//Class to define player object
+using System;
+
+namespace FirstProject
+{
+    class Player
+    {
+        //Fields
+        string name;
+        string race;
+        string classType;
+        
+        //Methods
+    }
+
+    class Barbarian : Player
+    {
+        //attack types:
+        //hack - standard attack
+        //slash - identical to hack
+        //shout - stuns target for 2 turns
+        //rage - 1 per day, damage taken reduced by half, damage given returned as health
+    }
+
+    class Wizard : Player
+    {
+        //attack types
+        //magic missile - standard attack
+        //staff bonk - low damage attack
+        //minor illusion - distracts target for a turn, next attack does double damage
+        //US M67 fragmentation grenade - insta kill once per day
+
+
+    }
+
+    class Missionary : Player
+    {
+        //Book slap - low damage standard attack
+        //Wax philosophical - try to strike up a conversation about God
+        //Ask for donation - try to get some money for your church
+        //Pray - reach out to a higher power
+        //Deus ex machina - Is it God or is it chance? Either way you live to fight another day.
+            //once per day insta kill
+    }
+
+}
